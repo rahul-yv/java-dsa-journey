@@ -31,9 +31,29 @@ Java-DSA-journey/
 |   |-- DetectCycle.java
 |   `-- MergeTwoSortedLists.java
 |-- strings/
+|   |-- LongestSubstringWithoutRepeatingCharacters.java
+|   |-- PalindromeCheckForString.java
+|   |-- ReverseAString.java
+|   |-- StringCompressionBasic.java
+|   `-- ValidAnagram.java
 |-- recursion/
+|   |-- FactorialUsingRecursion.java
+|   |-- FibonacciUsingRecursion.java
+|   |-- PowerOfNumberUsingRecursion.java
+|   |-- PrintSubsequencesUsingRecursion.java
+|   `-- TowerOfHanoi.java
 |-- stack/
+|   |-- DailyTemperaturesUsingStack.java
+|   |-- EvaluatePostfixExpression.java
+|   |-- MinStackDemo.java
+|   |-- NextGreaterElementUsingStack.java
+|   `-- ValidParenthesesUsingStack.java
 `-- queue/
+    |-- FirstNegativeNumberInEveryWindow.java
+    |-- GenerateBinaryNumbersUsingQueue.java
+    |-- ImplementCircularQueue.java
+    |-- QueueUsingTwoStacks.java
+    `-- SlidingWindowMaximumUsingDeque.java
 ```
 
 ## Progress
@@ -43,12 +63,12 @@ Java-DSA-journey/
 | Basics | 3 |
 | Arrays | 12 |
 | Linked List | 2 |
-| Strings | 0 |
-| Recursion | 0 |
-| Stack | 0 |
-| Queue | 0 |
+| Strings | 5 |
+| Recursion | 5 |
+| Stack | 5 |
+| Queue | 5 |
 
-**Total solved:** 17
+**Total solved:** 37
 
 ## Conventions
 
@@ -60,11 +80,11 @@ Java-DSA-journey/
 
 ## Next Topics
 
-1. Strings
-2. Recursion
-3. Stack
-4. Queue
-5. Binary Search
+1. Binary Search
+2. Sorting
+3. Trees
+4. Graphs
+5. Dynamic Programming
 
 ## Suggested Problem Template
 
