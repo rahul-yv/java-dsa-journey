@@ -1,4 +1,4 @@
-public class MaxArray {
+public class MaximumElementInArray {
     public static void main(String[] args) {
         int[] arr = {5,3,8,2,9};
         int max = arr[0];

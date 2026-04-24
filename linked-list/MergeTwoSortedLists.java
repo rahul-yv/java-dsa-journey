@@ -1,18 +1,18 @@
-class ListNode {
+class MergeListNode {
     int val;
-    ListNode next;
+    MergeListNode next;
 
-    ListNode(int val) {
+    MergeListNode(int val) {
         this.val = val;
         this.next = null;
     }
 }
 
-public class MergeTwoLists {
+public class MergeTwoSortedLists {
 
-    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(0);
-        ListNode current = dummy;
+    public static MergeListNode mergeTwoLists(MergeListNode l1, MergeListNode l2) {
+        MergeListNode dummy = new MergeListNode(0);
+        MergeListNode current = dummy;
 
         while (l1 != null && l2 != null) {
             if (l1.val <= l2.val) {
@@ -32,15 +32,15 @@ public class MergeTwoLists {
     }
 
     public static void main(String[] args) {
-        ListNode l1 = new ListNode(1);
-        l1.next = new ListNode(3);
-        l1.next.next = new ListNode(5);
+        MergeListNode l1 = new MergeListNode(1);
+        l1.next = new MergeListNode(3);
+        l1.next.next = new MergeListNode(5);
 
-        ListNode l2 = new ListNode(2);
-        l2.next = new ListNode(4);
-        l2.next.next = new ListNode(6);
+        MergeListNode l2 = new MergeListNode(2);
+        l2.next = new MergeListNode(4);
+        l2.next.next = new MergeListNode(6);
 
-        ListNode result = mergeTwoLists(l1, l2);
+        MergeListNode result = mergeTwoLists(l1, l2);
 
         while (result != null) {
             System.out.print(result.val + " -> ");

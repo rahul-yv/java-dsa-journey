@@ -1,5 +1,4 @@
-
-public class BestTimeStock {
+public class BestTimeToBuyAndSellStock {
 
     public static void main(String[] args) {
 
@@ -24,3 +23,4 @@ public class BestTimeStock {
         System.out.println("Max Profit = " + maxProfit);
     }
 }
+

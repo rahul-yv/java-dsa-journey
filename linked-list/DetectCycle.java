@@ -1,9 +1,9 @@
 
-class ListNode {
+class CycleNode {
     int val;
-    ListNode next;
+    CycleNode next;
 
-    ListNode(int val) {
+    CycleNode(int val) {
         this.val = val;
         this.next = null;
     }
@@ -11,10 +11,10 @@ class ListNode {
 
 public class DetectCycle {
 
-    public static boolean hasCycle(ListNode head) {
+    public static boolean hasCycle(CycleNode head) {
 
-        ListNode slow = head;
-        ListNode fast = head;
+        CycleNode slow = head;
+        CycleNode fast = head;
 
         while (fast != null && fast.next != null) {
 
@@ -31,10 +31,10 @@ public class DetectCycle {
 
     public static void main(String[] args) {
 
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
+        CycleNode head = new CycleNode(1);
+        head.next = new CycleNode(2);
+        head.next.next = new CycleNode(3);
+        head.next.next.next = new CycleNode(4);
 
         // create cycle
         head.next.next.next.next = head.next;

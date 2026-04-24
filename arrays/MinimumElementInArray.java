@@ -1,5 +1,5 @@
 
-public class MinArray {
+public class MinimumElementInArray {
     public static void main(String[] args) {
 
         int[] arr = {7,2,9,4,1};

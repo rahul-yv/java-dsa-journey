@@ -1,149 +1,88 @@
-# ☕ Java DSA Journey
+# Java DSA Journey
 
-> From beginner to FAANG Germany 🇩🇪 — one problem at a time.
+Focused Java practice repo for data structures and algorithms.
 
-![Java](https://img.shields.io/badge/Language-Java-orange?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Goal](https://img.shields.io/badge/Goal-FAANG%20Germany-blue?style=flat-square)
-![Curriculum](https://img.shields.io/badge/Curriculum-Kunal%20Kushwaha-purple?style=flat-square)
+## Goal
 
----
+Build a clean Java DSA problem set while working through fundamentals and interview-style problems.
 
-## 🎯 Goal
-Land a Software Engineering role at a FAANG company in Germany (Amazon Berlin / Google Munich) by mastering Java and Data Structures & Algorithms from scratch.
+## Current Structure
 
-**Curriculum:** [Kunal Kushwaha's Java + DSA Bootcamp](https://www.youtube.com/@KunalKushwaha)
-
----
-
-## 📁 Repository Structure
-
-```
-java-dsa-journey/
-│
-├── basics/               # Java fundamentals
-│   ├── HelloWorld.java
-│   ├── Variables.java
-│   ├── Loops.java
-│   └── Functions.java
-│
-├── arrays/               # Array problems
-│   ├── LargestElement.java
-│   ├── ReverseArray.java
-│   └── SecondLargest.java
-│
-├── strings/              # String problems
-│   ├── ReverseString.java
-│   └── PalindromeCheck.java
-│
-├── sorting/              # Sorting algorithms
-│   ├── BubbleSort.java
-│   ├── MergeSort.java
-│   └── QuickSort.java
-│
-├── recursion/            # Recursion & Backtracking
-│   ├── Fibonacci.java
-│   └── Subsets.java
-│
-├── linked-list/          # Linked List problems
-├── stacks-queues/        # Stack & Queue problems
-├── trees/                # Tree problems
-├── graphs/               # Graph problems
-├── dynamic-programming/  # DP problems
-│
-└── leetcode/             # LeetCode solutions
-    ├── easy/
-    ├── medium/
-    └── hard/
+```text
+Java-DSA-journey/
+|-- basics/
+|   |-- HelloWorld.java
+|   |-- Pattern1.java
+|   `-- Pattern2.java
+|-- arrays/
+|   |-- BestTimeToBuyAndSellStock.java
+|   |-- LinearSearch.java
+|   |-- MaximumElementInArray.java
+|   |-- MaximumSubarray.java
+|   |-- MergeTwoSortedArrays.java
+|   |-- MinimumElementInArray.java
+|   |-- MoveZeroes.java
+|   |-- RemoveDuplicatesFromSortedArray.java
+|   |-- ReverseAnArray.java
+|   |-- RotateArray.java
+|   |-- SecondLargestElement.java
+|   `-- SumOfArrayElements.java
+|-- linked-list/
+|   |-- DetectCycle.java
+|   `-- MergeTwoSortedLists.java
+|-- strings/
+|-- recursion/
+|-- stack/
+`-- queue/
 ```
 
----
+## Progress
 
-## 📅 Progress Log
+| Topic | Solved |
+|-------|--------|
+| Basics | 3 |
+| Arrays | 12 |
+| Linked List | 2 |
+| Strings | 0 |
+| Recursion | 0 |
+| Stack | 0 |
+| Queue | 0 |
 
-| Day | Topics Covered | Problems Solved |
-|-----|---------------|-----------------|
-| Day 1 | Java basics, program structure, printing output, variables | HelloWorld, basic patterns |
-| Day 2 | Arrays, for loops, if conditions, finding largest number, pattern printing | LargestInArray, Triangle pattern |
-| Day 3 | _(coming soon)_ | |
+**Total solved:** 17
 
----
+## Conventions
 
-## 🗺️ Roadmap
+- One problem per file
+- PascalCase file names and class names
+- Topic-based folders
+- No package declarations for now
+- Only actual solved problems are kept in the repo
 
-- [x] **Phase 1 — Java Foundations** *(in progress)*
-  - [x] Program structure & syntax
-  - [x] Variables & data types
-  - [x] Arrays & loops
-  - [x] Pattern programming
-  - [ ] Strings
-  - [ ] Object-Oriented Programming
-- [ ] **Phase 2 — Core DSA**
-  - [ ] Time & Space Complexity
-  - [ ] Recursion & Backtracking
-  - [ ] Sorting algorithms
-  - [ ] Linked Lists
-  - [ ] Stacks & Queues
-  - [ ] Binary Search
-- [ ] **Phase 3 — Advanced DSA**
-  - [ ] Trees & Heaps
-  - [ ] Graphs
-  - [ ] Dynamic Programming
-  - [ ] Tries
-- [ ] **Phase 4 — FAANG Prep**
-  - [ ] NeetCode 150
-  - [ ] System Design basics
-  - [ ] Mock interviews
+## Next Topics
 
----
+1. Strings
+2. Recursion
+3. Stack
+4. Queue
+5. Binary Search
 
-## 🧠 Problem Solving Template
-
-Every problem I solve follows this structure:
+## Suggested Problem Template
 
 ```java
 /*
  * Problem: [Problem Name]
- * Source: [LeetCode / Kunal Bootcamp / etc.]
+ * Source: [LeetCode / Bootcamp / Practice]
  * Difficulty: [Easy / Medium / Hard]
  *
  * Approach:
- * - [Explain your logic in 1-2 lines]
+ * [Short explanation]
  *
  * Time Complexity: O(?)
  * Space Complexity: O(?)
  */
 public class ProblemName {
     public static void main(String[] args) {
-        // Test cases
-    }
-
-    static returnType methodName(params) {
-        // solution
+        // test cases
     }
 }
 ```
-
----
-
-## 📚 Resources
-
-| Resource | Link | Purpose |
-|----------|------|---------|
-| Kunal Kushwaha Bootcamp | YouTube | Primary curriculum |
-| NeetCode 150 | neetcode.io | Must-solve LeetCode list |
-| LeetCode | leetcode.com | Daily practice |
-| Striver's SDE Sheet | takeuforward.org | 180 interview problems |
-
----
-
-## 📊 Stats
-
-- **Started:** March 2026
-- **Problems Solved:** 0 (growing daily)
-- **Current Topic:** Arrays & Basics
-- **Daily Goal:** 1-2
-  problems/day
----
-
-*"Consistency over intensity. Show up every day."* 💪

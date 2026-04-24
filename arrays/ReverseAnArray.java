@@ -1,5 +1,5 @@
 
-public class ReverseArray {
+public class ReverseAnArray {
 
     public static void main(String[] args) {
 
