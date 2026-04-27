@@ -28,7 +28,8 @@ Java-DSA-journey/
 |   |-- SecondLargestElement.java
 |   `-- SumOfArrayElements.java
 |-- binary-search/
-|   `-- BinarySearch.java
+|   |-- BinarySearch.java
+|   `-- FirstOccurrenceInSortedArray.java
 |-- linked-list/
 |   |-- DetectCycle.java
 |   `-- MergeTwoSortedLists.java
@@ -69,9 +70,9 @@ Java-DSA-journey/
 | Recursion | 5 |
 | Stack | 5 |
 | Queue | 5 |
-| Binary Search | 1 |
+| Binary Search | 2 |
 
-**Total solved:** 38
+**Total solved:** 39
 
 ## Conventions
 
