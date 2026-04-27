@@ -12,8 +12,9 @@
 | Stack | 5 |
 | Queue | 5 |
 | Binary Search | 2 |
+| Sorting | 1 |
 
-**Total solved:** 39
+**Total solved:** 40
 
 ## Recent Batches
 
@@ -23,9 +24,10 @@
 - Added 5 queue problems.
 - Started binary search with 1 classic problem.
 - Added first-occurrence binary search problem.
+- Started sorting basics with bubble sort.
 
 ## Next Batch
 
-- Sorting basics
+- More sorting problems
 - More binary search problems
 - Trees

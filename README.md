@@ -39,6 +39,8 @@ Java-DSA-journey/
 |   |-- ReverseAString.java
 |   |-- StringCompressionBasic.java
 |   `-- ValidAnagram.java
+|-- sorting/
+|   `-- BubbleSort.java
 |-- recursion/
 |   |-- FactorialUsingRecursion.java
 |   |-- FibonacciUsingRecursion.java
@@ -71,8 +73,9 @@ Java-DSA-journey/
 | Stack | 5 |
 | Queue | 5 |
 | Binary Search | 2 |
+| Sorting | 1 |
 
-**Total solved:** 39
+**Total solved:** 40
 
 ## Conventions
 
@@ -84,11 +87,11 @@ Java-DSA-journey/
 
 ## Next Topics
 
-1. Sorting
-2. Trees
-3. Graphs
-4. Dynamic Programming
-5. Greedy
+1. Trees
+2. Graphs
+3. Dynamic Programming
+4. Greedy
+5. Heap
 
 ## Suggested Problem Template
 
