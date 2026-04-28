@@ -88,7 +88,7 @@ Java-DSA-journey/
 ## Next Topics
 
 1. Trees
-2. Graphs
+2. Graph
 3. Dynamic Programming
 4. Greedy
 5. Heap
