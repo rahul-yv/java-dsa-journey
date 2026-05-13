@@ -1,3 +1,4 @@
+
 /*
  * Problem: Reverse a String
  * Source: Practice
@@ -9,23 +10,24 @@
  * Time Complexity: O(n)
  * Space Complexity: O(n)
  */
-public class ReverseAString {
+ // public class ReverseAString {
 
-    public static void main(String[] args) {
-        String text = "rahul";
-        char[] chars = text.toCharArray();
+ //   public static void main(String[] args) {
+ //       String text = "rahul";
+   //     char[] chars = text.toCharArray();
 
-        int left = 0;
-        int right = chars.length - 1;
+     //   int left = 0;
+       // int right = chars.length - 1;
 
-        while (left < right) {
-            char temp = chars[left];
-            chars[left] = chars[right];
-            chars[right] = temp;
-            left++;
-            right--;
-        }
+        //while (left < right) {
+          //  char temp = chars[left];
+            //chars[left] = chars[right];
+            //chars[right] = temp;
+            //left++;
+            //right--;
+       // }
 
-        System.out.println(new String(chars));
-    }
-}
+        //System.out.println(new String(chars));
+    //}
+//}
+
