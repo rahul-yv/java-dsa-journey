@@ -1,67 +1,32 @@
-# Java DSA Journey
+# Java DSA Journey 🚀
 
-Focused Java practice repo for data structures and algorithms.
+Self-taught developer from Mumbai building Java + DSA
+skills from scratch.
+Goal: IT Ausbildung Germany 2027 + Big Tech interviews.
+
+![Java](https://img.shields.io/badge/Language-Java-orange)
+![Problems](https://img.shields.io/badge/Solved-42+-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active-blue)
+
+---
 
 ## Goal
+IT Ausbildung Germany 2027 → Online CS Degree →
+Master's AI/ML → Big Tech
 
-Build a clean Java DSA problem set while working through fundamentals and interview-style problems.
-
-## Current Structure
-
-```text
-Java-DSA-journey/
-|-- basics/
-|   |-- HelloWorld.java
-|   |-- Pattern1.java
-|   `-- Pattern2.java
-|-- arrays/
-|   |-- BestTimeToBuyAndSellStock.java
-|   |-- LinearSearch.java
-|   |-- MaximumElementInArray.java
-|   |-- MaximumSubarray.java
-|   |-- MergeTwoSortedArrays.java
-|   |-- MinimumElementInArray.java
-|   |-- MoveZeroes.java
-|   |-- RemoveDuplicatesFromSortedArray.java
-|   |-- ReverseAnArray.java
-|   |-- RotateArray.java
-|   |-- SecondLargestElement.java
-|   `-- SumOfArrayElements.java
-|-- binary-search/
-|   |-- BinarySearch.java
-|   `-- FirstOccurrenceInSortedArray.java
-|-- linked-list/
-|   |-- DetectCycle.java
-|   `-- MergeTwoSortedLists.java
-|-- strings/
-|   |-- LongestSubstringWithoutRepeatingCharacters.java
-|   |-- PalindromeCheckForString.java
-|   |-- ReverseAString.java
-|   |-- StringCompressionBasic.java
-|   `-- ValidAnagram.java
-|-- sorting/
-|   `-- BubbleSort.java
-|-- recursion/
-|   |-- FactorialUsingRecursion.java
-|   |-- FibonacciUsingRecursion.java
-|   |-- PowerOfNumberUsingRecursion.java
-|   |-- PrintSubsequencesUsingRecursion.java
-|   `-- TowerOfHanoi.java
-|-- stack/
-|   |-- DailyTemperaturesUsingStack.java
-|   |-- EvaluatePostfixExpression.java
-|   |-- MinStackDemo.java
-|   |-- NextGreaterElementUsingStack.java
-|   `-- ValidParenthesesUsingStack.java
-`-- queue/
-    |-- FirstNegativeNumberInEveryWindow.java
-    |-- GenerateBinaryNumbersUsingQueue.java
-    |-- ImplementCircularQueue.java
-    |-- QueueUsingTwoStacks.java
-    `-- SlidingWindowMaximumUsingDeque.java
-```
+---
 
 ## Progress
+
+| Source | Solved |
+|--------|--------|
+| Kunal Bootcamp | 40 |
+| LeetCode | 2 |
+| **Total** | **42** |
+
+---
+
+## Topic Wise
 
 | Topic | Solved |
 |-------|--------|
@@ -74,45 +39,82 @@ Java-DSA-journey/
 | Queue | 5 |
 | Binary Search | 2 |
 | Sorting | 1 |
+| LeetCode Easy | 2 |
+| **Total** | **42** |
 
-**Total solved:** 40
+---
 
-## Conventions
+## Structure
 
-- One problem per file
-- PascalCase file names and class names
-- Topic-based folders
-- No package declarations for now
-- Only actual solved problems are kept in the repo
+java-dsa-journey-/
+│
+├── leetcode/
+│   ├── easy/
+│   │   ├── arrays/
+│   │   ├── strings/
+│   │   ├── linkedlist/
+│   │   ├── trees/
+│   │   ├── dp/
+│   │   └── math/
+│   ├── medium/
+│   │   ├── arrays/
+│   │   ├── strings/
+│   │   ├── linkedlist/
+│   │   ├── trees/
+│   │   ├── graphs/
+│   │   └── dp/
+│   └── hard/
+│       ├── arrays/
+│       ├── trees/
+│       ├── graphs/
+│       └── dp/
+│
+├── basics/
+├── arrays/
+├── strings/
+├── sorting/
+├── recursion/
+├── linked-list/
+├── stack/
+├── queue/
+├── trees/
+├── graphs/
+├── dynamic-programming/
+└── binary-search/
+---
+
+## Problem Template
+
+```java
+/*
+ * Problem: [Name]
+ * Source: [LeetCode / Kunal Bootcamp]
+ * Difficulty: [Easy / Medium / Hard]
+ *
+ * Approach: [Short explanation]
+ *
+ * Time: O(?)
+ * Space: O(?)
+ */
+```
+
+---
 
 ## Next Topics
-
 1. Trees
-2. Graph
+2. Graphs
 3. Dynamic Programming
 4. Greedy
 5. Heap
 
-## Suggested Problem Template
+---
 
-```java
-/*
- * Problem: [Problem Name]
- * Source: [LeetCode / Bootcamp / Practice]
- * Difficulty: [Easy / Medium / Hard]
- *
- * Approach:
- * [Short explanation]
- *
- * Time Complexity: O(?)
- * Space Complexity: O(?)
- */
-public class ProblemName {
-    public static void main(String[] args) {
-        // test cases
-    }
-}
-```
-# MaalSaathi
-# MaalSaathi
-# MaalSaathi
+## About Me
+- 🇮🇳 Mumbai → 🇩🇪 Germany
+- Building MaalSaathi — WhatsApp AI bot for truck owners
+- Learning Java + DSA daily
+- GitHub: rahulyadavhub
+
+---
+
+*Mumbai → Germany → Big Tech* 🚀
