@@ -1,120 +1,107 @@
-# Java DSA Journey 🚀
+# Java DSA
 
-Self-taught developer from Mumbai building Java + DSA
-skills from scratch.
-Goal: IT Ausbildung Germany 2027 + Big Tech interviews.
+This is where I keep all my data structures and algorithms practice in Java. I'm
+self-taught, from Mumbai, currently grinding through Kunal Kushwaha's Java + DSA
+bootcamp and a bunch of LeetCode on the side. The plan is to move to Germany for an
+Ausbildung as Fachinformatiker Anwendungsentwicklung, so I'm trying to get my
+fundamentals genuinely solid, not just memorize solutions.
 
-![Java](https://img.shields.io/badge/Language-Java-orange)
-![Problems](https://img.shields.io/badge/Solved-42+-brightgreen)
-![Status](https://img.shields.io/badge/Status-Active-blue)
+Right now there are **206 Java files** in here covering basically every core topic,
+plus interview prep checklists and some system design notes.
 
----
+## How I actually use this repo
 
-## Goal
-IT Ausbildung Germany 2027 → Online CS Degree →
-Master's AI/ML → Big Tech
+I don't just read and move on. I open a file, read the approach comment until I
+actually get *why* it works, then close it and type the whole thing out myself from
+scratch — in a new file or on paper. If I can't reproduce it, I didn't really learn
+it. That's the whole point of writing the explanations the way I did (casual, like
+I'm telling a friend), so future-me can re-learn fast.
 
----
+Every file is a complete program with a `main()` and test cases, so I can just:
 
-## Progress
+```bash
+javac SomeProblem.java && java SomeProblem
+```
 
-| Source | Solved |
-|--------|--------|
-| Kunal Bootcamp | 40 |
-| LeetCode | 2 |
-| **Total** | **42** |
+## What's in here
 
----
+### Core topics
+| Topic | Files | What it covers |
+|-------|-------|----------------|
+| `basics/` | 4 | hello world, loops, patterns |
+| `arrays/` | 21 | two sum, kadane, trapping rain water, 3sum, spiral matrix, next permutation... |
+| `strings/` | 11 | palindromes, anagrams, KMP, zigzag, count and say... |
+| `sorting/` | 8 | bubble, selection, insertion, merge, quick, counting, heap, radix |
+| `binary-search/` | 9 | rotated array, koko, median of two arrays, peak element, sqrt... |
+| `recursion/` | 13 | N-queens, sudoku, permutations, combination sum, rat in a maze, word search... |
+| `stack/` | 11 | valid parens, min stack, largest rectangle, stock span, celebrity... |
+| `queue/` | 10 | circular queue, deque, LRU cache, rotten oranges, sliding window max... |
+| `linked-list/` | 12 | reverse, cycle detection, merge, palindrome, LRU from scratch, doubly linked... |
+| `trees/` | 12 | traversals, level order, LCA, validate BST, serialize/deserialize, max path sum... |
+| `heap/` | 6 | min/max heap from scratch, kth largest, merge k lists, median stream, top k... |
+| `graphs/` | 13 | BFS, DFS, topo sort, Dijkstra, Bellman-Ford, Kruskal, Prim, islands, word ladder... |
+| `trie/` | 3 | trie implementation, word search II, autocomplete |
+| `dp/` | 18 | climbing stairs, knapsack, LCS, edit distance, coin change, burst balloons... |
+| `greedy/` | 6 | activity selection, fractional knapsack, job sequencing, huffman, jump game... |
+| `bitmanipulation/` | 6 | single number, count bits, power of two, reverse bits, missing number... |
+| `math/` | 6 | GCD/LCM, sieve, fast exponentiation, modular arithmetic, count primes... |
 
-## Topic Wise
+### LeetCode (`leetcode/`)
+37 files split into `easy/`, `medium/`, `hard/`. A bunch of these are the same
+problems I already solved in a topic folder — in those cases I left a little pointer
+file linking to the real solution instead of duplicating it.
 
-| Topic | Solved |
-|-------|--------|
-| Basics | 3 |
-| Arrays | 12 |
-| Linked List | 2 |
-| Strings | 5 |
-| Recursion | 5 |
-| Stack | 5 |
-| Queue | 5 |
-| Binary Search | 2 |
-| Sorting | 1 |
-| LeetCode Easy | 2 |
-| **Total** | **42** |
+### Interview prep (`interview-prep/`)
+- `blind75/` — the Blind 75 checklist with links to where each one lives here
+- `neetcode150/` — NeetCode 150 grouped by pattern, same idea
+- `companywise/` — top-asked problems for Amazon, Google, Meta, Microsoft, Apple
 
----
+### System design (`system-design/`)
+My own notes (not textbook stuff): CAP theorem, load balancing, caching, sharding,
+message queues, plus short case studies for a URL shortener, Twitter, and a chat
+system. This is further-off for me but good to have the vocabulary.
 
-## Structure
+## Folder structure
 
+```
 java-dsa-journey-/
-│
-├── leetcode/
-│   ├── easy/
-│   │   ├── arrays/
-│   │   ├── strings/
-│   │   ├── linkedlist/
-│   │   ├── trees/
-│   │   ├── dp/
-│   │   └── math/
-│   ├── medium/
-│   │   ├── arrays/
-│   │   ├── strings/
-│   │   ├── linkedlist/
-│   │   ├── trees/
-│   │   ├── graphs/
-│   │   └── dp/
-│   └── hard/
-│       ├── arrays/
-│       ├── trees/
-│       ├── graphs/
-│       └── dp/
-│
 ├── basics/
 ├── arrays/
 ├── strings/
 ├── sorting/
+├── binary-search/
 ├── recursion/
-├── linked-list/
 ├── stack/
 ├── queue/
+├── linked-list/
 ├── trees/
+├── heap/
 ├── graphs/
-├── dynamic-programming/
-└── binary-search/
----
-
-## Problem Template
-
-```java
-/*
- * Problem: [Name]
- * Source: [LeetCode / Kunal Bootcamp]
- * Difficulty: [Easy / Medium / Hard]
- *
- * Approach: [Short explanation]
- *
- * Time: O(?)
- * Space: O(?)
- */
+├── trie/
+├── dp/
+├── greedy/
+├── bitmanipulation/
+├── math/
+├── leetcode/
+│   ├── easy/
+│   ├── medium/
+│   └── hard/
+├── interview-prep/
+│   ├── blind75/
+│   ├── neetcode150/
+│   └── companywise/
+├── system-design/
+└── projects/
 ```
 
----
-
-## Next Topics
-1. Trees
-2. Graphs
-3. Dynamic Programming
-4. Greedy
-5. Heap
+## Resources I'm using
+- **Kunal Kushwaha** — Java + DSA bootcamp (the main thing I'm following)
+- **LeetCode** — daily practice
+- **NeetCode 150** — for structured interview prep
+- **Striver's SDE sheet** — when I want more problems on a topic
 
 ---
 
-## About Me
-- 🇮🇳 Mumbai → 🇩🇪 Germany
-- Building MaalSaathi — WhatsApp AI bot for truck owners
-- Learning Java + DSA daily
-- GitHub: rahulyadavhub
-
----
-
-*Mumbai → Germany → Big Tech* 🚀
+Still adding to this as I go. Some folders are deeper than others just because
+that's the order I've been learning in. If a file's comments sound like a confused
+student figured it out 5 minutes ago — yeah, that's the idea.
